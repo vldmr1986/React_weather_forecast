@@ -1,9 +1,9 @@
 {
-  "name": "React+Redux: weather-example with my man Stephan Grinder",
+  "name": "",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:vldmr1986/weather_forecast.git",
+  "repository": "git@github.com:vldmr1986/React_weather_forecast.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",

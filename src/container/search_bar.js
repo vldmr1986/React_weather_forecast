@@ -12,6 +12,7 @@ class SearchBar extends Component{
         this.onInputChange = this.onInputChange.bind(this);
         this.onFormSubmit = this.onFormSubmit.bind(this);
     }
+
     onInputChange(event) {this.setState({term: event.target.value})};
     onFormSubmit(event){
         event.preventDefault();
@@ -19,6 +20,7 @@ class SearchBar extends Component{
         this.setState({term: ''});
     }
     render (){
+      console.log('111111');
         return (
             <form onSubmit={this.onFormSubmit}  className="input-group">
                 <input

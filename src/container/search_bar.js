@@ -21,6 +21,8 @@ class SearchBar extends Component{
     }
     render (){
       console.log('111111');
+      console.log('22222222');
+      console.log('3333333333555555');
         return (
             <form onSubmit={this.onFormSubmit}  className="input-group">
                 <input
